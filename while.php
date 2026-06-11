@@ -42,12 +42,13 @@
             </div>
         </form>
     </div>
-
+     <a class="nav-link" href="index.php">→ ไปหน้า For loop</a>
     <?php if (isset($_GET["Num"])): ?>
         <?php
             $Num = (int)$_GET["Num"];
             $i = 1;
         ?>
+       
         <span class="badge">แม่ <?= $Num ?></span>
         <p class="result-title">สูตรคูณแม่ <?= $Num ?></p>
         <div class="grid">
